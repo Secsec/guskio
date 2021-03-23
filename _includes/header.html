@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper-title">
+  <div class="wrapper barre">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">gusk<i>.io</i></a>
@@ -29,6 +29,10 @@
   </div>
 </header>
 
-<div class="wrapper encart">
-	A geeky blog made by n00bs.
+<div class="encart">
+	<div class="wrapper">
+		<div>
+                     A geeky blog made by people who approximately know what they are doing. -
+		</div>
+	</div>
 </div>

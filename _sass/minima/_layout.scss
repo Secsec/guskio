@@ -262,8 +262,25 @@
 }
 
 .encart {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
-  background-color: #7f7f7f;
+  margin-top: $spacing-unit*1.25;
+  margin-bottom: $spacing-unit*1.25;
+  background-color: #E0E0E0;
+  border-bottom: none;
+  //position: relative;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} /2));
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   text-align: center;
+
+}
+
+.barre {
+  border-bottom: 1px solid #707070;
+}
+
+.test {
+ display: block;
 }

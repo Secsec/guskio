@@ -175,12 +175,12 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} /2 ));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} /2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  //padding-right: $spacing-unit;
+  //padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -190,25 +190,6 @@ pre {
     padding-left: $spacing-unit / 2;
   }
 }
-
-.wrapper-title {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  border-bottom: 1px solid #707070;
-		      @extend %clearfix;
-
-		        @include media-query($on-laptop) {
-				    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-				        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-					    padding-right: $spacing-unit / 2;
-					        padding-left: $spacing-unit / 2;
-						  }
-					  }
-
 
 
 /**

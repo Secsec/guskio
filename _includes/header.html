@@ -3,7 +3,7 @@
   <div class="wrapper barre">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">gusk<i>.io</i></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><span class="color-line">gus</span><span class="color-line2">k<i>.io</i></span></a>
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -33,6 +33,12 @@
 	<div class="wrapper">
 		<div>
                      A geeky blog made by people who approximately know what they are doing. -
+		</div>
+	</div>
+</div>
+
+	<div class="bar-pre-post">
+		<div class="wrapper">
 		</div>
 	</div>
 </div>

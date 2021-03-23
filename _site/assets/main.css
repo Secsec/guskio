@@ -157,7 +157,13 @@ table td { border: 1px solid #e8e8e8; }
 
 .barre { border-bottom: 1px solid #707070; }
 
-.test { display: block; }
+.bar-pre-post { border-bottom: 1px solid #707070; margin-right: auto; margin-left: auto; max-width: calc(800px - (30px)); width: 10%; margin-top: 15px; }
+
+.test { position: relative; clear: both; }
+
+.color-line { border-bottom-width: 5px; border-bottom-style: solid; border-bottom-color: #9B59B6; display: inline-block; margin-bottom: 15px; }
+
+.color-line2 { border-bottom-width: 5px; border-bottom-style: solid; border-bottom-color: #1ABC9C; display: inline-block; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

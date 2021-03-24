@@ -265,7 +265,6 @@
 }
 
 .encart {
-  margin-top: $spacing-unit*1.25;
   margin-bottom: $spacing-unit*1.25;
   background-color: #E0E0E0;
   border-bottom: none;
@@ -291,8 +290,9 @@
  margin-right: auto;
  margin-left:auto;
  max-width:         calc(#{$content-width} - (#{$spacing-unit}));
- width: 10%;
+ width: 40%;
  margin-top: $spacing-unit*0.5;
+ margin-bottom: $spacing-unit*0.5;
 }
 
 
